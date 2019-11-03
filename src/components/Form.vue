@@ -1,7 +1,7 @@
 <template>
   <div class="global">
     <form action="#" class="form">
-        <input type="text" v-model="search" class="form-search-input" placeholder="Insira aqui sua busca">
+        <input type="text" v-model="search" class="form-search-input" placeholder="Informe sua busca">
         <button @click="pesquisar" class="form-search-button"> Pesquisar </button>
     </form>
     <div class="result">

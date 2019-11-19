@@ -30,7 +30,7 @@ export default {
     pesquisar(){
 
       axios
-      .get(`http://127.0.0.1:5000/${this.search}`)
+      .get(`http://pocketwiki.appspot.com/${this.search}`)
       .then(response => {
         this.result.title = response.data.title;
         this.result.description = response.data.description;

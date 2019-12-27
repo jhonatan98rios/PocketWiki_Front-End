@@ -30,7 +30,7 @@ export default {
     pesquisar(){
 
       axios
-      .get(`http://pocketwiki.appspot.com/${this.search}`)
+      .get(`https://pocketwiki.appspot.com/${this.search}`)
       .then(response => {
         this.result.title = response.data.title;
         this.result.description = response.data.description;
